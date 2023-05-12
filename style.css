@@ -108,6 +108,11 @@ section{
     .container{
         grid-template-columns: 1fr 1fr;
     }
-    
+    .item1{
+        grid-area: 1/ 1/ 2/ 3;
+    }
+    .item2, .item3{
+        grid-row: 2;
+    }
 }
 
